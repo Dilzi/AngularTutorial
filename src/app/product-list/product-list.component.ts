@@ -17,11 +17,9 @@ export class ProductListComponent {
   alerttodanger() {
     window.alert('Holy shit, some danger is here! Ruuuun!')
   }
+
+  onNotify() {
+    window.alert('Youll be notified.')
+  }
 }
 
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
